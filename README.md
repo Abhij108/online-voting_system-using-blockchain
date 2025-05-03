@@ -36,14 +36,3 @@ send_email_private_key(request.session['email-id'], private_key)
 
 
 
-## References
-
-- <a name="EmailCredentials">Why and How to add Email credentials:</a>
-
-  How and Why: https://www.youtube.com/watch?v=JRCJ6RtE3xU (Watch out first 2 minutes of this video)
-
-  https://myaccount.google.com/apppasswords
-
-  https://myaccount.google.com/lesssecureapps
-
-  
