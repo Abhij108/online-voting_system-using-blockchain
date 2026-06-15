@@ -24,7 +24,7 @@ def home(request):
 # --------------- Authentication -------------------
 def authentication(request):
 
-    aadhar_no = request.GET.get('aadhar_no')
+    aadhar_no = request.POST.get('aadhar_no', '').strip()
 
     details = {'success': False}
     
